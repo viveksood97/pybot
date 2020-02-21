@@ -1,0 +1,6 @@
+genie learn interface --testbed AMD-MPL-LTE-PE-RTR-42-115.yaml --output postcheck/
+genie learn int erface --testbed AMD-MPL-LTE-PE-RTR-42-115.yaml --output postcheck/
+[1m[31m
+File AMD-MPL-LTE-PE-RTR-42-115.yaml doesn't exist[0m[39m
+
+[?1034h]0;root@COKHNWANSIBLE:/data/SunilB/genie/test/B0204787_AMD-MPL-LTE-PE-RTR-42-115(genie) [root@COKHNWANSIBLE B0204787_AMD-MPL-LTE-PE-RTR-42-115]# 

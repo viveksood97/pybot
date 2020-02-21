@@ -1,0 +1,533 @@
+ * Serving Flask app "process" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "process.py", line 213, in <module>
+    app.run(use_reloader= True,debug=True,host='0.0.0.0', port=8011)
+  File "/usr/lib64/python3.4/site-packages/flask/app.py", line 943, in run
+    run_simple(host, port, self, **options)
+  File "/usr/lib64/python3.4/site-packages/werkzeug/serving.py", line 795, in run_simple
+    s.bind(get_sockaddr(hostname, port, address_family))
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "process" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:8011/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 822-044-401
+10.12.150.105 - - [27/Jan/2020 11:28:12] "GET / HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 11:28:14] "GET /about/ HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 11:28:14] "GET /genie HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 11:28:19] "GET /genie HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 11:28:20] "GET /about/ HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 11:28:20] "GET /genie HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 11:28:21] "GET /about/ HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 11:28:21] "GET / HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 11:28:22] "GET /about/ HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 11:28:22] "GET /genie HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 11:28:23] "GET / HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 11:28:24] "GET /about/ HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 11:28:25] "GET /genie HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 12:54:20] "GET /genie HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 12:54:22] "GET / HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 12:54:22] "GET /about/ HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 12:54:23] "GET /genie HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 14:41:25] "GET / HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 14:41:27] "GET /about/ HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 14:41:28] "GET /genie HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 14:41:29] "GET /genie HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 14:41:30] "GET /genie HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 14:41:31] "GET /about/ HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 14:41:32] "GET /genie HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 14:41:33] "GET /about/ HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 14:41:33] "GET /genie HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 14:41:34] "GET / HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 14:41:35] "GET /about/ HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 14:41:36] "GET / HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 16:51:18] "GET / HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 16:51:20] "GET / HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 16:51:22] "GET / HTTP/1.1" 200 -
+10.12.150.105 - - [27/Jan/2020 16:51:24] "GET /about/ HTTP/1.1" 200 -
+10.12.150.105 - - [28/Jan/2020 09:44:11] "GET / HTTP/1.1" 200 -
+10.12.150.105 - - [28/Jan/2020 09:44:12] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.105 - - [28/Jan/2020 09:44:12] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.105 - - [28/Jan/2020 09:44:13] "GET /about/ HTTP/1.1" 200 -
+10.12.150.105 - - [28/Jan/2020 09:44:14] "GET /genie HTTP/1.1" 200 -
+10.12.34.23 - - [04/Feb/2020 13:02:12] "GET / HTTP/1.1" 200 -
+10.12.34.23 - - [04/Feb/2020 13:02:12] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.34.23 - - [04/Feb/2020 13:02:12] "GET /static/pyBot1.png HTTP/1.1" 200 -
+10.12.34.23 - - [04/Feb/2020 13:02:13] "GET /favicon.ico HTTP/1.1" 404 -
+10.12.34.23 - - [04/Feb/2020 13:02:17] "GET /genie HTTP/1.1" 200 -
+10.12.150.230 - - [13/Feb/2020 17:37:04] "GET / HTTP/1.1" 200 -
+10.12.150.230 - - [13/Feb/2020 17:37:04] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.230 - - [13/Feb/2020 17:37:04] "GET /static/pyBot1.png HTTP/1.1" 200 -
+10.12.150.230 - - [13/Feb/2020 17:37:05] "GET /favicon.ico HTTP/1.1" 404 -
+10.12.150.152 - - [13/Feb/2020 17:42:27] "GET / HTTP/1.1" 200 -
+10.12.150.152 - - [13/Feb/2020 17:42:27] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.152 - - [13/Feb/2020 17:42:27] "GET /static/pyBot1.png HTTP/1.1" 200 -
+10.12.150.152 - - [13/Feb/2020 17:42:28] "GET /favicon.ico HTTP/1.1" 404 -
+10.12.150.152 - - [13/Feb/2020 17:42:31] "GET /about/ HTTP/1.1" 200 -
+10.12.150.152 - - [13/Feb/2020 17:42:39] "GET /genie HTTP/1.1" 200 -
+10.12.150.152 - - [13/Feb/2020 17:42:39] "GET /about/ HTTP/1.1" 200 -
+10.12.150.152 - - [13/Feb/2020 17:42:40] "GET /genie HTTP/1.1" 200 -
+10.12.150.152 - - [13/Feb/2020 17:42:40] "GET /about/ HTTP/1.1" 200 -
+10.12.150.152 - - [13/Feb/2020 17:42:41] "GET /about/ HTTP/1.1" 200 -
+10.12.150.152 - - [13/Feb/2020 17:42:41] "GET /genie HTTP/1.1" 200 -
+ * Detected change in '/home/mpls/Desktop/flask/process.py', reloading
+ * Restarting with stat
+  File "/home/mpls/Desktop/flask/process.py", line 219
+    
+                                                                       ^
+SyntaxError: unexpected EOF while parsing
+ * Serving Flask app "process" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:8011/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 822-044-401
+10.12.150.245 - - [18/Feb/2020 15:46:49] "GET /home HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:46:52] "GET / HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:47:06] "GET / HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:47:06] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:47:06] "GET /static/pyBot1.png HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:50:05] "GET / HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:50:06] "GET /favicon.ico HTTP/1.1" 404 -
+10.12.150.245 - - [18/Feb/2020 15:51:17] "GET / HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:51:17] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:51:17] "GET /static/pyBot1.png HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:51:17] "GET /favicon.ico HTTP/1.1" 404 -
+ * Detected change in '/home/mpls/Desktop/flask/process.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 822-044-401
+10.12.150.245 - - [18/Feb/2020 15:52:25] "GET / HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:52:37] "GET /genie HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:52:38] "GET /home HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:52:38] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:52:39] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:52:39] "GET /genie HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:52:40] "GET /kpi-utility/ HTTP/1.1" 200 -
+ * Detected change in '/home/mpls/Desktop/flask/process.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 822-044-401
+10.12.150.245 - - [18/Feb/2020 15:53:50] "GET /kpi-utility/ HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib64/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib64/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/mpls/Desktop/flask/process.py", line 220, in kpi
+    return render_template('kpi.html',len = len(output))
+  File "/usr/local/lib64/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/usr/local/lib64/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/usr/lib64/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/lib64/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/lib64/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/mpls/Desktop/flask/templates/kpi.html", line 4, in top-level template code
+    {% extends "layout.html" %}
+  File "/home/mpls/Desktop/flask/templates/layout.html", line 11, in top-level template code
+    <div><a href="{{url_for('/')}}"><img src="{{ url_for('static', filename='pyBot1.png') }}"></a
+  File "/usr/local/lib64/python3.6/site-packages/flask/helpers.py", line 356, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 2061, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib64/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib64/python3.6/site-packages/flask/helpers.py", line 345, in url_for
+    force_external=external)
+  File "/usr/local/lib/python3.6/site-packages/werkzeug/routing.py", line 2020, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/'. Did you mean 'kpi' instead?
+10.12.150.245 - - [18/Feb/2020 15:53:50] "GET /kpi-utility/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:53:50] "GET /kpi-utility/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:53:50] "GET /kpi-utility/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:53:50] "GET /kpi-utility/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:53:50] "GET /kpi-utility/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:53:50] "GET /kpi-utility/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:54:04] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib64/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib64/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/mpls/Desktop/flask/process.py", line 14, in home
+    return render_template('home1.html')
+  File "/usr/local/lib64/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/usr/local/lib64/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/usr/lib64/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/lib64/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/lib64/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/mpls/Desktop/flask/templates/home1.html", line 7, in top-level template code
+    {% extends "layout.html" %}
+  File "/home/mpls/Desktop/flask/templates/layout.html", line 11, in top-level template code
+    <div><a href="{{url_for('/')}}"><img src="{{ url_for('static', filename='pyBot1.png') }}"></a
+  File "/usr/local/lib64/python3.6/site-packages/flask/helpers.py", line 356, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 2061, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib64/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib64/python3.6/site-packages/flask/helpers.py", line 345, in url_for
+    force_external=external)
+  File "/usr/local/lib/python3.6/site-packages/werkzeug/routing.py", line 2020, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/'. Did you mean 'kpi' instead?
+10.12.150.245 - - [18/Feb/2020 15:54:04] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:54:04] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:54:04] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:54:05] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:54:05] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:54:05] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:55:30] "GET /kpi-utility/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:55:32] "GET / HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:55:33] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:55:34] "GET /genie HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:55:34] "GET /kpi-utility/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:55:35] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:55:35] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:56:10] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:56:11] "GET / HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:56:13] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:56:19] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:56:21] "GET / HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:56:22] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:56:29] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:56:29] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:56:29] "GET /static/pyBot1.png HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:56:30] "GET /favicon.ico HTTP/1.1" 404 -
+10.12.150.245 - - [18/Feb/2020 15:56:40] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:56:40] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:56:40] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:57:21] "GET / HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:57:21] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:57:21] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:57:23] "GET / HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:57:23] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:57:23] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:57:23] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:57:24] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:57:24] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:57:25] "GET / HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:57:25] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:57:25] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:57:59] "GET / HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:57:59] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:57:59] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:58:00] "GET /genie HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:58:00] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:58:00] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:58:01] "GET /genie HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:58:01] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:58:01] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:58:02] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:58:02] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:58:02] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:58:07] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:58:07] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:58:07] "GET /static/pyBot1.png HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:58:07] "GET /favicon.ico HTTP/1.1" 404 -
+10.12.150.245 - - [18/Feb/2020 15:58:28] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:58:28] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:58:28] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:59:05] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:59:05] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:59:05] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:59:14] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:59:14] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:59:14] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:59:21] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:59:21] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:59:21] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:59:35] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:59:35] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:59:35] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:59:41] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:59:41] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:59:41] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 15:59:56] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:59:56] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 15:59:56] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:00:03] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:00:03] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:00:03] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:00:14] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:00:14] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:00:14] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:00:53] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:00:53] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:00:53] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:01:26] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:01:26] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:01:26] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:01:34] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:01:34] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:01:34] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:01:43] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:01:43] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:01:43] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:01:50] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:01:50] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:01:50] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:01:57] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:01:57] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:01:57] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:01] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:01] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:01] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:06] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:06] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:06] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:16] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:16] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:16] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:27] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:27] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:27] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:28] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:28] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:28] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:29] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:29] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:29] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:29] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:29] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:29] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:36] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:36] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:36] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:37] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:37] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:37] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:37] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:37] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:37] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:37] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:37] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:37] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:37] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:03:37] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:03:37] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:06:01] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:06:01] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:06:01] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:06:33] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:06:33] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:06:33] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:06:33] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:06:33] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:06:33] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:06:33] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:06:33] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:06:33] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:06:34] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:06:34] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:06:34] "GET /static/pyBot1.png HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:07:49] "GET / HTTP/1.1" 200 -
+125.21.81.237 - - [18/Feb/2020 16:07:49] "GET /static/css/frontend.css HTTP/1.1" 200 -
+125.21.81.237 - - [18/Feb/2020 16:07:49] "GET /static/pyBot1.png HTTP/1.1" 200 -
+125.21.81.237 - - [18/Feb/2020 16:08:08] "GET / HTTP/1.1" 200 -
+125.21.81.237 - - [18/Feb/2020 16:08:08] "GET /static/css/frontend.css HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:08:08] "GET /static/pyBot1.png HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:08:10] "GET /favicon.ico HTTP/1.1" 404 -
+125.21.81.237 - - [18/Feb/2020 16:08:23] "GET /about/ HTTP/1.1" 200 -
+125.21.81.237 - - [18/Feb/2020 16:08:23] "GET /static/css/frontend.css HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:08:23] "GET /static/pyBot1.png HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:08:31] "GET /genie HTTP/1.1" 200 -
+125.21.81.237 - - [18/Feb/2020 16:08:31] "GET /static/css/frontend.css HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:08:31] "GET /static/pyBot1.png HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:08:46] "GET /about/ HTTP/1.1" 200 -
+125.21.81.237 - - [18/Feb/2020 16:08:46] "GET /static/css/frontend.css HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:08:46] "GET /static/pyBot1.png HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:09:02] "GET /kpi-utility/ HTTP/1.1" 200 -
+125.21.81.237 - - [18/Feb/2020 16:09:02] "GET /static/css/frontend.css HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:09:02] "GET /static/pyBot1.png HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:09:32] "GET /about/ HTTP/1.1" 200 -
+125.21.81.237 - - [18/Feb/2020 16:09:32] "GET /static/css/frontend.css HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:09:32] "GET /static/pyBot1.png HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:09:33] "GET /genie HTTP/1.1" 200 -
+125.21.81.237 - - [18/Feb/2020 16:09:33] "GET /static/css/frontend.css HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:09:33] "GET /static/pyBot1.png HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:09:34] "GET /kpi-utility/ HTTP/1.1" 200 -
+125.21.81.237 - - [18/Feb/2020 16:09:34] "GET /static/css/frontend.css HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:09:34] "GET /static/pyBot1.png HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:09:35] "GET / HTTP/1.1" 200 -
+125.21.81.237 - - [18/Feb/2020 16:09:35] "GET /static/css/frontend.css HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:09:35] "GET /static/pyBot1.png HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:09:38] "GET /about/ HTTP/1.1" 200 -
+125.21.81.237 - - [18/Feb/2020 16:09:38] "GET /static/css/frontend.css HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:09:38] "GET /static/pyBot1.png HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:09:38] "GET /genie HTTP/1.1" 200 -
+125.21.81.237 - - [18/Feb/2020 16:09:38] "GET /static/css/frontend.css HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:09:39] "GET /static/pyBot1.png HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:09:39] "GET /kpi-utility/ HTTP/1.1" 200 -
+125.21.81.237 - - [18/Feb/2020 16:09:39] "GET /static/css/frontend.css HTTP/1.1" 304 -
+125.21.81.237 - - [18/Feb/2020 16:09:39] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:11:25] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:11:25] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:11:25] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:11:30] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:11:30] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:11:30] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:11:38] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:11:38] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:11:38] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:11:43] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:11:43] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:11:43] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:12:01] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:12:01] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:12:01] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:12:09] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:12:09] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:12:09] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:12:39] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:12:39] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:12:39] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:12:45] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:12:45] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:12:45] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:12:50] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:12:50] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:12:50] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:12:56] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:12:56] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:12:56] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:13:00] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:13:00] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:13:00] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:13:05] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:13:05] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:13:05] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:13:09] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:13:09] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:13:09] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:13:57] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:13:57] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:13:57] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:14:05] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:14:05] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:14:05] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:14:32] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:14:32] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:14:32] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:14:40] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:14:40] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:14:40] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:15:50] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:15:50] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:15:50] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:15:56] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:15:56] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:15:56] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:16:35] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:16:35] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:16:35] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:17:06] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:17:06] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:17:06] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:17:28] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:17:28] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:17:28] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:17:37] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:17:37] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:17:37] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:17:41] "GET /genie HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:17:41] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:17:41] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:17:42] "GET /kpi-utility/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:17:42] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:17:42] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:17:43] "GET /about/ HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:17:43] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:17:43] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:17:45] "GET /genie HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:17:45] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:17:45] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:18:23] "GET /genie HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:18:23] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:18:23] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:18:32] "GET /genie HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:18:32] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:18:32] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:18:37] "GET /genie HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:18:37] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:18:37] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:18:42] "GET /genie HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:18:42] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:18:42] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:23:37] "GET /genie HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:23:37] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:23:37] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:23:38] "GET /genie HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:23:38] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:23:38] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:23:39] "GET /genie HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:23:39] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:23:39] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:24:23] "GET /genie HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:24:23] "GET /static/css/frontend.css HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:24:23] "GET /static/pyBot1.png HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:24:49] "GET / HTTP/1.1" 200 -
+10.12.150.245 - - [18/Feb/2020 16:24:49] "GET /static/css/frontend.css HTTP/1.1" 304 -
+10.12.150.245 - - [18/Feb/2020 16:24:49] "GET /static/pyBot1.png HTTP/1.1" 304 -
+ * Detected change in '/home/mpls/Desktop/flask/process.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/home/mpls/Desktop/flask/process.py", line 9, in <module>
+    import flask_monitoringdashboard as dashboard
+ModuleNotFoundError: No module named 'flask_monitoringdashboard'

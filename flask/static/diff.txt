@@ -1,0 +1,11 @@
+genie diff precheck postcheck --output diff/
+genie diff precheck postcheck --output diff/
+0it [00:00, ?it/s]1it [00:00, 1069.43it/s]
++==============================================================================+
+| Genie Diff Summary between directories precheck/ and postcheck/              |
++==============================================================================+
+|  File: interface_iosxr_AMD-MPL-LTE-PE-RTR-42-115_ops.txt                     |
+|   - Identical                                                                |
+|------------------------------------------------------------------------------|
+
+[?1034h]0;root@COKHNWANSIBLE:/data/SunilB/genie/test(genie) [root@COKHNWANSIBLE test]# 
